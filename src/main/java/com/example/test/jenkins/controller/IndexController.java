@@ -8,6 +8,6 @@ public class IndexController {
 
     @RequestMapping("/test")
     public String test(){
-        return  String.valueOf(System.currentTimeMillis())+" jenkins";
+        return  String.valueOf(System.currentTimeMillis())+" jenkins build SCM";
     }
 }
